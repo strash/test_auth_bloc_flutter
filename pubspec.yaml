@@ -1,0 +1,21 @@
+name: test_auth_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: any
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: any
+
+flutter:
+  uses-material-design: true
