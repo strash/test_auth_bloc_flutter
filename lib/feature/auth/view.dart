@@ -47,6 +47,8 @@ class AuthView extends StatelessWidget {
                               maxLength: 15,
                               maxLengthEnforcement:
                                   MaxLengthEnforcement.enforced,
+                              autovalidateMode:
+                                  AutovalidateMode.onUserInteraction,
                             ),
                             const SizedBox(height: 10.0),
 
